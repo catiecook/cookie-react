@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+}
+
+.col {
+  flex: 40%;
+  margin: 0 5%;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.button {
+  width: 500px;
+  height: 500px;
+  flex: 1 1 auto;
+  margin-left: 0px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+  background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:after {
+  right: 0;
+  left: auto;
+}

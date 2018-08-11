@@ -1,0 +1,24 @@
+section {
+  color: black;
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  float: right;
+  list-style: none;
+  padding: .3em 1.5em;
+  cursor: pointer;
+  text-align: right;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+li:hover {
+  background-color: rgba(85,239,203,1);
+}

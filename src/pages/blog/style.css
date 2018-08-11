@@ -1,0 +1,14 @@
+.img__container {
+  width: 85%;
+  height: 500px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.post__body {
+  font-size: 1em;
+  width: 85%;
+}
