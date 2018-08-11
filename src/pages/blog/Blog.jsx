@@ -1,17 +1,9 @@
 import React from 'react';
-import RouteWithSubRoutes from '../../routes';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import '../../App.css';
 import './style.css';
 import {Nav} from '../../components/Nav';
-
-// Media import
-import Wave from '../../images/wave.jpg';
 
 class Blog extends React.Component {
   render() {

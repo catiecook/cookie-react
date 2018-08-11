@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
+import { ConnectedRouter } from 'react-router-redux';
 
 //pages for routing
 import Landing from './pages/landing/Landing';
@@ -44,22 +45,20 @@ const routes = [
   }
 ]
 
-class Main extends React.Component {
-  render() {
+export const Main = ({history}) => {
     return (
-      <Router>
-        <div>
-          {routes.map((route) => (
-            <Route
-              key={route.path}
-              exact path={route.path}
-              component={route.component}
-            />
-          ))}
-        </div>
-      </Router>
+      <ConnectedRouter history={history}>
+        <Router>
+          <div>
+            {routes.map((route) => (
+              <Route
+                key={route.path}
+                exact path={route.path}
+                component={route.component}
+              />
+            ))}
+          </div>
+        </Router>
+      </ConnectedRouter>
     );
-  };
-}
-
-export default Main;
+  }
