@@ -5,7 +5,22 @@ html {
   font-weight: 200;
   font-size: 1em;
   margin: 0 auto;
-  padding: 5% 10%;
+  padding: 1% 10%;
+}
+
+section {
+  margin-bottom: 0 !important;
+}
+
+blockquote {
+  display: flex;
+  align-self: center;
+  font-size: 1.5em;
+  font-weight: 800;
+  font-style: italic;
+  width: 60%;
+  border: .5px solid rgba(85,239,203,1);;
+  padding: 1%;
 }
 
 .title {
@@ -16,7 +31,7 @@ html {
 
 .title__text {
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 2%;
 }
 
@@ -29,6 +44,7 @@ html {
 .regular__text {
   font-size: 1em;
   font-weight: 200;
+  line-height: 1.25;
 }
 
 .small__caps {
@@ -96,8 +112,19 @@ html {
   margin: 0 auto;
 }
 
+.spread {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-bottom: 0 !important;
+  width: 70%;
+}
+
+#turquoise {
+  color: rgba(85,239,203,1);
+}
+
 a:link, a:hover, a:active, a:visited {
   text-decoration: none;
   color: black;
-  text-transform: capitalize;
 }

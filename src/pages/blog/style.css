@@ -1,6 +1,12 @@
+.blog__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .img__container {
   width: 85%;
-  height: 500px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -10,5 +16,8 @@ img {
 
 .post__body {
   font-size: 1em;
-  width: 85%;
+  width: 70%;
+  align-self: center;
+  /* margin-left: 10%; */
+  line-height: 1.5;
 }

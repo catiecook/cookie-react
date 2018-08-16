@@ -9,6 +9,8 @@ import {
 import '../../App.css';
 import './style.css';
 
+import Me from '../../images/self-portrait.jpg';
+
 import { Nav } from '../../components/Nav';
 
 const Resume = () => (
@@ -65,27 +67,41 @@ class About extends React.Component {
         <div className="row">
           <div className="col">
             <div className="title">
-              About Me.
+              {/* Hey I'm Catie!. */}
             </div>
+            <div className="img__container__about">
+              <img src={Me} />
+            </div>
+          </div>
+          <div className="col top__margin">
+            {!this.state.resumeIsHidden && <Resume />}
             <div className="title__text">
-              Hey I'm Catie! <br />
-              Right now, I live in Seattle, WA<br />
+              Hey I'm Catie!
             </div>
-              <section className="regular__text">
-                I'm a former graphic designer gone software engineer! My favorite stuff is
-                <br />
-                Right now, my favorite things to work on are front end projects.
-                <br />
-                I've also got a few side projects going, and they pretty much all have to do with learning how to integrate animation with coding.
+            <div className="regular__text">
+              Currently I live in Seattle, WA. Before this, I lived in Colorado between the mountains and Denver for about 9 years –– and before that I grew up in Maine!
+              <br />
+              <br />
+              I'm a former graphic designer gone software engineer. I also worked in the coffee industry for 5 years, so I'm rpetty passionate about connecting with people and community around me.
+              <br />
+              <br />
+              Right now, my favorite things to work on are front end projects. Lately, I've been teaching myself Adobe After Effects so I can integrate some animations into my front end projects.
+              <br />
+              <br />
+              When I'm not at work (or on my computer) I try to get outside whether it's by riding my motorcycle, camping, or doing something in the mountains. Seasons usually decide the activity for me.
+              <br />
+              <br />
+              If you want to work with me, <a href="/contact/" id="turquoise">email me</a>. Or visit one of my below media outlets and get in touch.
+              <br />
+              <br />
+              <hr />
+              <br />
+              <section className="spread">
+                <a href="https://www.linkedin.com/in/catiecook" target="blank" id="turquoise">Linkedin</a>
+                <a href="https://www.instagram.com/catiecook" target="blank" id="turquoise">Instagram</a>
               </section>
-              <section
-                onClick={this.toggleResumeHidden.bind(this)}
-                className="emphesized__link">Check out my resume.
-              </section>
             </div>
-            <div className="col">
-              {!this.state.resumeIsHidden && <Resume />}
-            </div>
+          </div>
         </div>
       </div>
 

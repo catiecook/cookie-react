@@ -8,9 +8,9 @@
   flex: 50%;
 }
 
-.col-4 {
-  flex: 23%;
-  margin-right: 30px;
+.col-3 {
+  flex: 30%;
+  margin-right: 5%;
 }
 
 .container {
