@@ -15,9 +15,9 @@ img {
 }
 
 .post__body {
+  display: flex;
+  flex-direction: column;
   font-size: 1em;
-  width: 70%;
-  align-self: center;
-  /* margin-left: 10%; */
+  width: 80%;
   line-height: 1.5;
 }

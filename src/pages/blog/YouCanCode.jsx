@@ -1,34 +1,32 @@
 import React from 'react';
-import RouteWithSubRoutes from '../../routes';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
+//components
+import { Nav } from '../../components/Nav';
+
+//styles
 import '../../App.css';
 import './style.css';
-import {Nav} from '../../components/Nav';
 
 // Media import
 import Code from '../../images/code.jpg';
 
-class SingleBlog extends React.Component {
+class YouCanCode extends React.Component {
   render() {
     return (
       <div className="blog__container">
         <Nav />
         <div className="title">
-          Everyone can code.
+          You can code.
         </div>
         <div className="title__text">
           <p className="regular__italic">Here's the thing you guys. I'm a college dropout, sort of. If I can learn to code, so can you.</p>
         </div>
         <div className="img__container">
-          <img src={Code} />
+          <img src={Code} alt="computer with code on screen" />
         </div>
         <p className="post__body">
-          I figured that it may be appropriate to do a little post here about the path I have gone down to get where I am now. Hopefully someone reading this will find it interesting, or maybe motivational to try something new. Maybe you're feeling like, <em>"Nah, Catie I'm good, I don't want to code."</em> That's fine! I still think the idea that someone can learn something new with the right amount of motivation is a very relavent thing and we should talk about the <em>how</em> more often.
+          I figured that it may be appropriate to do a little post here about the path I have gone down to get where I am now. Hopefully someone reading this will find it interesting, or maybe motivational to try something new. Maybe you're feeling like, "Nah, Catie I'm good, I don't want to code." That's fine! I still think the idea that someone can learn something new with the right amount of motivation is a very relavent thing and we should talk about the how more often.
         </p>
         <blockquote>
           Let's be honest: diving into something new gets more and more intimidating as you get older.
@@ -50,7 +48,7 @@ class SingleBlog extends React.Component {
           </strong>
         </p>
         <p className="post__body">
-          I worked my ass off. I studied, I built shitty apps, I built some okay apps, I learned new technologies. I participated in hackathons and I went to meet ups. I <em>really</em> wanted it.
+          I worked my ass off. I studied, I built shitty apps, I built some okay apps, I learned new technologies. I participated in hackathons and I went to meet ups. I really wanted it.
         </p>
         <blockquote>
           I didn't do anything special to get where I am today that someone else couldn't replicate exactly. I just kept at it.
@@ -68,4 +66,4 @@ class SingleBlog extends React.Component {
   };
 }
 
-export default SingleBlog;
+export default YouCanCode;

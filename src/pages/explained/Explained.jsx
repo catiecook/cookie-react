@@ -1,7 +1,10 @@
 import React from 'react';
-import { Nav } from '../../components/Nav';
 import { Link } from 'react-router-dom';
 
+//components
+import { Nav } from '../../components/Nav';
+
+//styles
 import './style.css';
 
 class Explained extends React.Component {
@@ -12,17 +15,17 @@ class Explained extends React.Component {
         <div className="row">
           <div className="col-2">
             <div className="title">
-              Explained.
+              Figured it out.
             </div>
             <div className="title__text">
-              Here is where I bascially recount all the problems I've run in to and how I fixed it.
+              Here is where I bascially recount all the problems I've run into and how I fixed it.
             </div>
           </div>
           <div className="col"></div>
         </div>
         <div className="row">
           <div className="col-3">
-            <Link to="/explained/post/:id">
+            <Link to="/explained/post/randomizer">
               <div className="sub__title">
                 Randomizer
               </div>
@@ -51,22 +54,6 @@ class Explained extends React.Component {
             <div className="regular__text">
               Here is where I bascially recount all the problems I've run in to and how I fixed it.
             </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-3">
-            <Link to="/explained/post/:id">
-              <div className="sub__title">
-                Explained.
-              </div>
-            </Link>
-            <div className="regular__text">
-              Here is where I bascially recount all the problems I've run in to and how I fixed it.
-            </div>
-          </div>
-          <div className="col-3">
-          </div>
-          <div className="col-3">
           </div>
         </div>
       </div>

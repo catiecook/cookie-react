@@ -8,10 +8,12 @@ import {
 import Landing from './pages/landing/Landing';
 import Blog from './pages/blog/Blog';
 import About from './pages/about/About';
-import Contact from './pages/contact/Contact';
-import SingleBlog from './pages/blog/SingleBlog';
+import Resume from './pages/about/Resume';
+// import Contact from './pages/contact/Contact';
+import YouCanCode from './pages/blog/YouCanCode';
 import Explained from './pages/explained/Explained';
-import ExplainedPost from './pages/explained/ExplainedPost';
+// import ExplainedPost from './pages/explained/ExplainedPost';
+import Randomizer from './pages/explained/Randomizer';
 
 const routes = [
   {
@@ -26,21 +28,25 @@ const routes = [
     path: '/blog',
     component: Blog,
   },
-  {
-    path: '/contact',
-    component: Contact,
-  },
+  // {
+  //   path: '/contact',
+  //   component: Contact,
+  // },
   {
     path: '/about',
     component: About,
   },
   {
-    path: '/explained/post/:id',
-    component: ExplainedPost,
+    path: '/resume',
+    component: Resume,
   },
   {
-    path: '/blog/:id',
-    component: SingleBlog,
+    path: '/explained/post/randomizer',
+    component: Randomizer,
+  },
+  {
+    path: '/blog/youcancode',
+    component: YouCanCode,
   }
 ]
 

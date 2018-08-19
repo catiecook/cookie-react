@@ -1,25 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//styles
 import './nav.css';
 
 export const Nav = () => (
-  <section>
-    <nav>
-      <ul>
+  <section className="nav__container">
+    <nav className="nav__items">
+
+      <ul className="nav__logo">
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/about">Cookie</Link>
         </li>
+      </ul>
+
+      <ul className="nav__links">
         <li>
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/blog">Blog</Link>
+          <Link to="/resume">Work</Link>
         </li>
         <li>
-          <Link to="/explained">Explained</Link>
+          <Link to="/explained">Figured it out</Link>
         </li>
       </ul>
+
     </nav>
   </section>
 

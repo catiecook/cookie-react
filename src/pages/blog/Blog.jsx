@@ -1,17 +1,12 @@
 import React from 'react';
-import RouteWithSubRoutes from '../../routes';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
+//components
+import { Nav } from '../../components/Nav';
+
+//styles
 import '../../App.css';
 import './style.css';
-import {Nav} from '../../components/Nav';
-
-// Media import
-import Wave from '../../images/wave.jpg';
 
 class Blog extends React.Component {
   render() {
@@ -31,7 +26,7 @@ class Blog extends React.Component {
         </div>
         <div className="row">
           <div className="col-4">
-            <Link to="/blog/:id">
+            <Link to="/blog/youcancode">
               <div className="sub__title">
                 You can code. Duh.
               </div>

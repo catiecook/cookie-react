@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100i,200,300,400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
 
 html {
   font-family: 'Montserrat', sans-serif;
@@ -14,19 +15,21 @@ section {
 
 blockquote {
   display: flex;
-  align-self: center;
   font-size: 1.5em;
-  font-weight: 800;
+  font-weight: 100;
   font-style: italic;
-  width: 60%;
-  border: .5px solid rgba(85,239,203,1);;
+  width: 50%;
+  opacity: .7;
+  border: .5px solid rgba(85,239,203,1);
   padding: 1%;
+  margin-left: 0px !important;
 }
 
 .title {
   font-size: 4em;
   font-weight: 900;
   margin-bottom: 5%;
+  margin-top: 2%;
 }
 
 .title__text {
@@ -36,6 +39,7 @@ blockquote {
 }
 
 .sub__title {
+
   font-size: 2.5em;
   font-weight: 900;
   font-variant: normal;
