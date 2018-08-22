@@ -38,11 +38,11 @@ class Explained extends React.Component {
           <div className="col-3">
             <Link to="/explained/post/:id">
               <div className="sub__title">
-                Common React Errors
+                Lazy Loading
               </div>
             </Link>
             <div className="regular__text">
-              While learning (always) React, I came across some common errors, and instad of figuring them out and moving on, I've deicded to write the errors down with their solutions. Maybe it'll be helpful to someone else.
+              What the heck is lazy loading?
             </div>
           </div>
           <div className="col-3">

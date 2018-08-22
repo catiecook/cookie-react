@@ -14,6 +14,7 @@ import YouCanCode from './pages/blog/YouCanCode';
 import Explained from './pages/explained/Explained';
 // import ExplainedPost from './pages/explained/ExplainedPost';
 import Randomizer from './pages/explained/Randomizer';
+import LazyLoading from './pages/explained/LazyLoading';
 
 const routes = [
   {
@@ -43,6 +44,10 @@ const routes = [
   {
     path: '/explained/post/randomizer',
     component: Randomizer,
+  },
+  {
+    path: '/explained/post/lazyload',
+    component: LazyLoading,
   },
   {
     path: '/blog/youcancode',
