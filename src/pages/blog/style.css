@@ -60,4 +60,11 @@ img {
   .col-2 {
     flex: 80%;
   }
+
+  .small__img__container {
+    max-width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin-top: 5%;
+  }
 }
