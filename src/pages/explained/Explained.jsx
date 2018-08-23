@@ -14,11 +14,11 @@ class Explained extends React.Component {
         <Nav />
         <div className="row">
           <div className="col-2">
-            <div className="title">
+            <div className="sub__title space__after">
               Figured it out.
             </div>
             <div className="title__text">
-              Here is where I bascially recount all the problems I've run into and how I fixed it.
+              Here is where I bascially recount things I've figured out due to problems I've run into.
             </div>
           </div>
           <div className="col"></div>
@@ -26,7 +26,7 @@ class Explained extends React.Component {
         <div className="row">
           <div className="col-3">
             <Link to="/explained/post/randomizer">
-              <div className="sub__title">
+              <div className="post__title">
                 Randomizer
               </div>
             </Link>
@@ -37,7 +37,7 @@ class Explained extends React.Component {
           </div>
           <div className="col-3">
             <Link to="/explained/post/:id">
-              <div className="sub__title">
+              <div className="post__title">
                 Common React Errors
               </div>
             </Link>
@@ -47,7 +47,7 @@ class Explained extends React.Component {
           </div>
           <div className="col-3">
             <Link to="/explained/post/:id">
-              <div className="sub__title">
+              <div className="post__title">
                 Explained.
               </div>
             </Link>

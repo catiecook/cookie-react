@@ -3,7 +3,7 @@ nav {
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(85,239,203,1);
   margin-bottom: 2%;
 }
 
@@ -12,7 +12,7 @@ nav {
   flex-grow: 1;
   font-size: 1.3em;
   font-weight: 800;
-  
+
   font-family: 'Montserrat', sans-serif;
   list-style: none;
   cursor: pointer;

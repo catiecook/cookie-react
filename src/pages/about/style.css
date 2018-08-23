@@ -26,6 +26,10 @@
   margin: 0 auto;
 }
 
+.resume__container {
+  width: 60%;
+}
+
 .button {
   width: 500px;
   height: 500px;

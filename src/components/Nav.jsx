@@ -19,7 +19,7 @@ export const Nav = () => (
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/resume">Work</Link>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
           <Link to="/explained">Figured it out</Link>
