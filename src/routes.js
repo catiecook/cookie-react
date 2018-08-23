@@ -43,7 +43,7 @@ const routes = [
 class Main extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           {routes.map((route) => (
             <Route
