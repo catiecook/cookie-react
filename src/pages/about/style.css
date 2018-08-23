@@ -1,5 +1,5 @@
 .row {
-    display: flex;
+  display: flex;
 }
 
 .col {
@@ -51,4 +51,21 @@
 .button:after {
   right: 0;
   left: auto;
+}
+
+img {
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    display: block;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  .col {
+    margin-top: 3%;
+    flex: 80%;
+  }
 }

@@ -6,14 +6,12 @@ import {
 
 //pages for routing
 import Landing from './pages/landing/Landing';
-import Blog from './pages/blog/Blog';
 import About from './pages/about/About';
 import Resume from './pages/about/Resume';
 // import Contact from './pages/contact/Contact';
-import YouCanCode from './pages/blog/YouCanCode';
-import Explained from './pages/explained/Explained';
-// import ExplainedPost from './pages/explained/ExplainedPost';
-import Randomizer from './pages/explained/Randomizer';
+import Blog from './pages/blog/Blog';
+import HowIGotHere from './pages/blog/HowIGotHere';
+import Randomizer from './pages/blog/Randomizer';
 
 const routes = [
   {
@@ -21,32 +19,24 @@ const routes = [
     component: Landing
   },
   {
-    path: '/explained',
-    component: Explained,
-  },
-  {
     path: '/blog',
-    component: Blog,
+    component: Blog
   },
-  // {
-  //   path: '/contact',
-  //   component: Contact,
-  // },
   {
     path: '/about',
-    component: About,
+    component: About
   },
   {
     path: '/resume',
-    component: Resume,
+    component: Resume
   },
   {
-    path: '/explained/post/randomizer',
-    component: Randomizer,
+    path: '/blog/randomizer',
+    component: Randomizer
   },
   {
-    path: '/blog/youcancode',
-    component: YouCanCode,
+    path: '/blog/howigothere',
+    component: HowIGotHere
   }
 ]
 

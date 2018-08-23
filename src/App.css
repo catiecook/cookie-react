@@ -5,8 +5,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1em;
-  margin: 0 auto;
-  padding: 1% 10%;
+  margin: 1% 10%;
 }
 
 section {
@@ -44,9 +43,15 @@ blockquote {
   font-variant: normal !important;
 }
 
+.post__body div {
+  margin: 2% 0;
+  width: 75%;
+}
+
 .post__title {
   font-size: 2em;
   font-weight: 600;
+  margin-bottom: 5%;
 }
 
 .regular__text {
@@ -96,6 +101,15 @@ blockquote {
   text-align: right;
 }
 
+.emph {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.semi__bold {
+  font-weight: 500;
+}
+
 .row {
   display: flex;
   height: auto;
@@ -126,6 +140,11 @@ blockquote {
   justify-content: space-around;
   padding-bottom: 0 !important;
   width: 70%;
+}
+
+.code__snippet {
+  border: 1px solid rgba(85,239,203,1);
+  font-size: 1.2em;
 }
 
 .space__after {

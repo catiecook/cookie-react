@@ -1,5 +1,5 @@
 import React from 'react';
-
+import fileDownload from 'js-file-download';
 //components
 import { Nav } from '../../components/Nav';
 

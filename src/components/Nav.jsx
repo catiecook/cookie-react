@@ -22,7 +22,7 @@ export const Nav = () => (
           <Link to="/resume">Resume</Link>
         </li>
         <li>
-          <Link to="/explained">Figured it out</Link>
+          <Link to="/blog">Blog</Link>
         </li>
       </ul>
 
