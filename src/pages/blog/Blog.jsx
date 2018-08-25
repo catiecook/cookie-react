@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 //components
 import { Nav } from '../../components/Nav';
+import ShapeWave from '../../components/ShapeWave';
 
 //styles
 import './style.css';
@@ -52,6 +53,16 @@ class Blog extends React.Component {
             </div>
           </div>
           <div className="col-3">
+            <Link to="/blog/shape-wave">
+              <div className="post__title">
+                Animation: shape wave
+                <br />
+                <ShapeWave />
+              </div>
+            </Link>
+            <div className="regular__text">
+              This one time...I made this placeholder animation for my website with an AE plugin called Bodymovin. Great name.
+            </div>
           </div>
         </div>
       </div>

@@ -29,10 +29,10 @@ class About extends React.Component {
               Currently I live in Seattle, WA. Before this, I lived in Colorado between the mountains and Denver for about 9 years –– and before that I grew up in Maine!
               <br />
               <br />
-              I'm a former graphic designer gone software engineer. I also worked in the coffee industry for 5 years, so I'm rpetty passionate about connecting with people and community around me.
+              I'm a former graphic designer gone software engineer. I also worked in the coffee industry for 5 years, so I'm pretty passionate about connecting with people and the community around me.
               <br />
               <br />
-              My favorite things to work on are front end projects. Lately, I've been teaching myself Adobe After Effects so I can integrate some animations into my front end projects.
+              My favorite things to work on are frontend projects. Lately, I've been teaching myself Adobe After Effects so I can integrate some animations into my front end projects.
               <br />
               <br />
               When I'm not at work (or on my computer) I try to get outside whether it's by riding my motorcycle, camping, or doing something in the mountains. Seasons usually decide the activity for me.

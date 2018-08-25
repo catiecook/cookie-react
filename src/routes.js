@@ -12,6 +12,7 @@ import Resume from './pages/about/Resume';
 import Blog from './pages/blog/Blog';
 import HowIGotHere from './pages/blog/HowIGotHere';
 import Randomizer from './pages/blog/Randomizer';
+import ShapeWave from './pages/blog/ShapeWave';
 
 const routes = [
   {
@@ -37,6 +38,10 @@ const routes = [
   {
     path: '/blog/howigothere',
     component: HowIGotHere
+  },
+  {
+    path: '/blog/shape-wave',
+    component: ShapeWave
   }
 ]
 
