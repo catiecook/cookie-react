@@ -16,9 +16,11 @@ class Landing extends React.Component {
             <div className="title__text">
               Welcome to my website.
             </div>
+            <br />
             <div className="title__text">
-              I'm a software engineer, and a graphic designer.
+              I'm Catie, a human who works in software engineering and graphic design.
             </div>
+            <br />
             <div className="title__text">
               It's neat you've made your way here.
               <br />

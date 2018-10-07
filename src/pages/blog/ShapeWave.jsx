@@ -40,13 +40,13 @@ class ExplainedPost extends React.Component {
             If you're interested, here is the <a id="turquoise" href="http://aescripts.com/bodymovin/">link</a> for that extension.
           </div>
           <div>
-            This site is made with React, so I also had to install a pluging for react and bodymovin specifically, rather than impletment it in the vanilla way I previously learned. So, the first step on the coding side was to install the plugin.
+            This site is made with React, so I also had to install a plugin for React and Bodymovin specifically, rather than impletment it in the vanilla JS  way I previously learned. So, the first step on the coding side was to install the plugin.
           </div>
           <code className="code__snippet">
             npm install --save react-bodymovin
           </code>
           <div>
-            Then, in your project create a new file named <pre>Bodymovin.js</pre> and place the following code inside. You'll motice I have a class called "Animation" in there. Its just or my own styles for the animation on this page, do what you would like with that part!
+            Then, in your project create a new file named <pre>Bodymovin.js</pre> and place the following code inside. You'll notice I have a class called "Animation" in there. It's just some of my own styles for the animation and its positioning on this page, do what you would like with that part!
             <Gist id='75e9ba11974341cd373f5b2a469a113c' />
           </div>
           <div>
